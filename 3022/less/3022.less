@@ -1,0 +1,38 @@
+
+ 
+
+.type-3022{
+    
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 100vh;            
+    text-align: center;       
+   
+    
+    @media (max-width: 768px) {
+      .type-3022 {
+        display: block;        
+        height: auto;           
+    }
+    }
+  
+  .item {
+    border: 1px solid #f4f4f4;
+    padding: 10px;
+  }
+  .img {
+    width: 100%;
+    height: 200px; /* Chiều cao cố định của khuôn ảnh */
+    overflow: hidden; /* Ẩn phần tràn của ảnh */
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+}
+

@@ -1,0 +1,29 @@
+.type-3022 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .type-3022 .type-3022 {
+    display: block;
+    height: auto;
+  }
+}
+.type-3022 .item {
+  border: 1px solid #f4f4f4;
+  padding: 10px;
+}
+.type-3022 .img {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+.type-3022 .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
